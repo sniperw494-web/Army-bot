@@ -17,19 +17,6 @@ site:
           content:
             directory: ./home
     - type: section
-      key: section-2
-      title: Documentation
-      path: documentation
-      icon: book-blank
-      children:
-        - type: space
-          key: space-2
-          title: Documentation
-          path: documentation
-          default: true
-          content:
-            directory: ./documentation
-    - type: section
       key: section-3
       title: API Reference
       path: api-reference
@@ -42,19 +29,6 @@ site:
           default: true
           content:
             directory: ./api-reference
-    - type: section
-      key: section-4
-      title: Changelog
-      path: changelog
-      icon: clock-rotate-left
-      children:
-        - type: space
-          key: space-4
-          title: Changelog
-          path: changelog
-          default: true
-          content:
-            directory: ./changelog
     - type: section
       key: section-5
       title: Help Center
